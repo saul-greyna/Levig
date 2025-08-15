@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('/public/fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
