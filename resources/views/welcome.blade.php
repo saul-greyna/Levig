@@ -39,7 +39,7 @@
         <section
             class="relative flex flex-col items-center justify-between w-full bg-gradient-to-b from-tertiary to-secondary-text rounded-t-3xl h-[89vh]">
             <h2 class="w-2/3 p-16 font-bold text-center text-8xl text-secondary-text">
-                Protección integral siempre cerca de ti
+                Tu seguridad es nuestra prioridad
             </h2>
             <p class="w-2/4 text-lg text-center text-secondary-text">
                 Seguridad privada profesional para empresas y residencias. Tecnología de punta y personal
@@ -49,7 +49,8 @@
                 <div class="w-1/6 text-left h-72 rounded-3xl bg-secondary-text">
                     <h2 class="px-8 py-4 text-3xl text-primary-text">Confianza garantizada</h2>
                     <p class="px-8 text-base text-quinary">
-                        Desde el 2023 brindando seguridad a clientes corporativos y particulares en todo Leon Guanajuato.
+                        Desde el 2023 brindando seguridad a clientes corporativos y particulares en todo Leon
+                        Guanajuato.
                     </p>
                 </div>
                 <div class="w-1/6 text-left h-72 rounded-3xl bg-secondary-text">
@@ -77,7 +78,7 @@
                 </div>
             </article>
         </section>
-        <section class="items-center justify-center w-full min-h-screen ">
+        <section class="items-center justify-center w-full min-h-screen">
             <h3 class="p-12 m-12 text-5xl text-left text-primary-text">Algunos de nuestros clientes</h3>
             <article class="flex flex-row items-center justify-center w-full px-12">
                 <div class="flex flex-col w-1/3 m-4 h-1/3">
@@ -107,17 +108,15 @@
                 </div>
             </article>
         </section>
-        <section class="flex flex-col items-center justify-around w-full max-h-screen">
+        <section class="flex flex-col items-center justify-around w-full min-h-screen">
             <div class="w-full px-4">
                 <h2 class="p-8 text-5xl text-center text-primary-text">¿Por qué Levig?</h2>
                 <picture class="flex flex-row w-full gap-4 py-8">
                     <div class="w-1/2 max-h-[30rem] items-center justify-center flex">
-                        <img src="{{ asset('icons/Levig-vertical.svg') }}" alt=""
-                            class="h-full rounded-3xl">
+                        <img src="{{ asset('icons/Levig-vertical.svg') }}" alt="" class="h-full rounded-3xl">
                     </div>
                     <div class="w-1/2 max-h-[30rem] items-center justify-center flex">
-                        <img src="{{ asset('images/equipo.png') }}" alt=""
-                            class="h-full rounded-3xl ">
+                        <img src="{{ asset('images/equipo.png') }}" alt="" class="h-full rounded-3xl ">
                     </div>
                 </picture>
                 <article class="flex flex-row justify-center w-full gap-4 py-8">
@@ -187,6 +186,74 @@
                             Contamos con todos los registros y permisos municipales, estatales y federales.
                         </p>
                     </div>
+                </article>
+            </div>
+        </section>
+        <section class="flex items-center justify-center w-full min-h-screen">
+            <div class="flex flex-row h-3/4">
+                <article class="flex flex-col w-1/2">
+                    <h2 class="px-20 py-4 text-5xl font-medium text-primary-text">
+                        Permiso Oficial de Operación
+                    </h2>
+                    <p class="px-20 py-4 text-xl text-left text-primary-text">
+                        En LEVIG Seguridad Privada contamos con permiso municipal y estatal vigente que nos
+                        acredita como una empresa legalmente autorizada para brindar servicios de seguridad privada.
+                        Esta certificación garantiza que cada servicio que ofrecemos está respaldado por un estricto
+                        cumplimiento normativo y la confianza de estar en manos profesionales.
+                    </p>
+                    <ul class="flex flex-col items-start justify-center">
+                        <li
+                            class="flex flex-row items-center justify-center gap-4 px-20 py-2 text-lg font-semibold text-quinary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                <path
+                                    d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05" />
+                            </svg>
+                            Permisos oficiales:
+                            <br>
+                            Municipal SSPPC.2024.II.1830/0 y Estatal 1.20.III.15.24.
+                        </li>
+                        <li
+                            class="flex flex-row items-center justify-center gap-4 px-20 py-2 text-lg font-semibold text-quinary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+                                <path
+                                    d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5" />
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                            </svg>
+                            Elementos capacitados:
+                            <br>
+                            Personal entrenado y bajo un proceso de selección riguroso.
+                        </li>
+                        <li
+                            class="flex flex-row items-center justify-center gap-4 px-20 py-2 text-lg font-semibold text-quinary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                fill="currentColor" class="bi bi-ui-checks" viewBox="0 0 16 16">
+                                <path
+                                    d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zM2 1a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 8a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2zm.854-3.646a.5.5 0 0 1-.708 0l-1-1a.5.5 0 1 1 .708-.708l.646.647 1.646-1.647a.5.5 0 1 1 .708.708zm0 8a.5.5 0 0 1-.708 0l-1-1a.5.5 0 0 1 .708-.708l.646.647 1.646-1.647a.5.5 0 0 1 .708.708zM7 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5" />
+                            </svg>
+                            Protocolos garantizados:
+                            <br>
+                            Supervisión constante, bitácoras y control de novedades.
+                        </li>
+                        <li
+                            class="flex flex-row items-center justify-center gap-4 px-20 py-2 text-lg font-semibold text-quinary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path
+                                    d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            Confianza y respaldo legal:
+                            <br>
+                            Servicios con garantía por escrito y facturación disponible.
+                        </li>
+                    </ul>
+                </article>
+                <article class="flex flex-col w-1/2 px-20">
+                    <img src="{{ asset('images/permiso.jpg') }}" alt="" class="h-[500px] rounded-3xl">
                 </article>
             </div>
         </section>
