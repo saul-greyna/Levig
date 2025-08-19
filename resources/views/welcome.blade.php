@@ -4,14 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Levig</title>
+    <meta name="description"
+        content="En LEVIG Seguridad Privada brindamos guardias de seguridad certificados en León, Guanajuato, con permisos municipal y estatal. Solicite informes con confianza.">
+    <title>@yield('title', 'Levig')</title>
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     @endif
 </head>
 
 <body class="font-lexend min-h-dvh grid-template-rows-[auto_1fr_auto] box-border p-0 m-0">
-    <header class="flex flex-col items-center ">
+    <header class="flex flex-col items-center">
         <nav class="z-10 flex flex-row items-center justify-around w-full p-2 bg-secondary-text">
             <a href="" aria-label="Ir a la página de inicio">
                 <img src="{{ asset('icons/Levig-horizontal.svg') }}" alt="" class="w-[350px] h-[75px]">
@@ -37,7 +39,7 @@
     </header>
     <main>
         <section
-            class="relative flex flex-col items-center justify-between w-full bg-gradient-to-b from-tertiary to-secondary-text rounded-t-3xl h-[89vh]">
+            class="relative flex flex-col items-center justify-between w-full bg-gradient-to-b from-tertiary to-secondary-text h-[89vh] rounded-t-[45px]">
             <h2 class="w-2/3 p-16 font-bold text-center text-8xl text-secondary-text">
                 Tu seguridad es nuestra prioridad
             </h2>
@@ -113,7 +115,7 @@
                 <h2 class="p-8 text-5xl text-center text-primary-text">¿Por qué Levig?</h2>
                 <picture class="flex flex-row w-full gap-4 py-8">
                     <div class="w-1/2 max-h-[30rem] items-center justify-center flex">
-                        <img src="{{ asset('icons/Levig-vertical.svg') }}" alt="" class="h-full rounded-3xl">
+                        <img src="{{ asset('images/equipo-2.jpeg') }}" alt="" class="h-full rounded-3xl">
                     </div>
                     <div class="w-1/2 max-h-[30rem] items-center justify-center flex">
                         <img src="{{ asset('images/equipo.png') }}" alt="" class="h-full rounded-3xl ">
@@ -258,7 +260,72 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="w-full h-auto">
+        <div
+            class="px-6 py-12 bg-gradient-to-b from-secondary-text to-tertiary rounded-b-[45px] min-h-96 flex items-center justify-center">
+            <picture class="w-1/4 ">
+                <img src="{{ asset('icons/Levig-vertical.svg') }}" alt="Logo pie pagina" class="mim-h-40 mim-w-40">
+            </picture>
+            <nav aria-label="Footer Navigation" class="flex justify-around w-3/4">
+                <div>
+                    <h3 class="mb-3 text-xl font-semibold">Servicios</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:underline">Seguridad Privada</a></li>
+                        <li><a href="#" class="hover:underline">Análisis de Riesgos</a></li>
+                        <li><a href="#" class="hover:underline">Supervisión 24/7</a></li>
+                        <li><a href="#" class="hover:underline">Patrullaje Nocturno</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="mb-3 text-xl font-semibold">Nosotros</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:underline">Misión</a></li>
+                        <li><a href="#" class="hover:underline">Visión</a></li>
+                        <li><a href="#" class="hover:underline">Valores</a></li>
+                        <li><a href="#" class="hover:underline">Clientes</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="mb-3 text-xl font-semibold">Recursos</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:underline">Avisos y Reglamentos</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="mb-3 text-xl font-semibold">Contáctanos</h3>
+                    <ul class="space-y-2 ">
+                        <li>
+                            <span>
+                                Bahía del Salvador 114 A, Col. Paseo de la Castellana, León, Gto. C.P.
+                                37549
+                            </span>
+                        </li>
+                        <li>
+                            <span>Oficina: 477 331-19-73</span>
+                        </li>
+                        <li>
+                            <span>WhatsApp: 479 218-65-73 / 477 817-93-57</span>
+                        </li>
+                        <li>
+                            <a href="mailto:levigseguridadprivada@gmail.com" class="hover:underline">
+                                levigseguridadprivada@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="flex items-center justify-center w-full bg-secondary-text min-h-20">
+            <span class="flex items-center justify-center w-1/4">
+                © 2025 Levig Seguridad Privada S.A. de C.V.
+            </span>
+            <ul class="flex items-center justify-center w-3/4 gap-16">
+                <li><a href="#" class="hover:underline">Términos</a></li>
+                <li><a href="#" class="hover:underline">Privacidad</a></li>
+                <li><a href="#" class="hover:underline">Cookies</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
